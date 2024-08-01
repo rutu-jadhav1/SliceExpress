@@ -1,0 +1,10 @@
+h1{
+    font-size: 20px;
+}
+.pizza-img{
+    height: 200px;
+    width: 225px;
+}
+.flex-container{
+    display: flex;
+}
