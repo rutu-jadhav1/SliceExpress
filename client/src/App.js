@@ -1,9 +1,11 @@
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Slice Express</h1>
+      <Navbar/>
     </div>
   );
 }
