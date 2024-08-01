@@ -1,10 +1,33 @@
 h1{
     font-size: 20px;
 }
+.pizza-name{
+    text-align: center;
+}
 .pizza-img{
     height: 200px;
     width: 225px;
+    margin: 2px 70px;
 }
 .flex-container{
     display: flex;
+}
+.type-nm{
+    margin: 0px 45px;
+}
+.select-input{
+    width: 100px;
+    padding: 1px 6px;
+    margin: 5px 35px;
+}
+.second-sub-div{
+    margin: 8px 31px;
+}
+
+.cart-button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 125px;
+    font-size: large;
 }
