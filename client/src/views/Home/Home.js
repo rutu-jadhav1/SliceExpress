@@ -5,9 +5,9 @@ import Pizza from '../../components/Pizza/Pizza'
 function Home() {
   return (
     <>
-        <div className='row'>
+        <div className='row r '>
             {pizzas.map(pizza =>{
-                return <div className='col-md-4 p-3'>
+                return <div className='col-md-4 p-4'>
                     <div className='pizza-div'>
                         <Pizza pizza={pizza}/>
                     </div>
