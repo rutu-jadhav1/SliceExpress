@@ -7,7 +7,7 @@ function Home() {
     <>
         <div className='row'>
             {pizzas.map(pizza =>{
-                return <div className='col-md-4'>
+                return <div className='col-md-4 p-3'>
                     <div className='pizza-div'>
                         <Pizza pizza={pizza}/>
                     </div>

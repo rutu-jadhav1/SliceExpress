@@ -3,25 +3,30 @@ h1{
 }
 .pizza-name{
     text-align: center;
+    margin-left: -35px;
 }
 .pizza-img{
-    height: 200px;
-    width: 225px;
+    height: 220px;
+    width: 240px;
     margin: 2px 70px;
 }
 .flex-container{
     display: flex;
+    margin-top: 5px;
 }
 .type-nm{
-    margin: 0px 45px;
+    margin: 0px 65px;
 }
 .select-input{
-    width: 100px;
+    width: 90px;
     padding: 1px 6px;
-    margin: 5px 35px;
+    margin: 5px 45px;
 }
 .second-sub-div{
-    margin: 8px 31px;
+   margin-left: -25px;
+}
+.pr{
+    margin-left: 50px;
 }
 
 .cart-button{

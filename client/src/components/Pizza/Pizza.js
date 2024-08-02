@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './Pizza.css'
 
 function Pizza({ pizza }) {
-    const { quantity, setQuantity } = useState(1);
-    const { varient, setVarient } = useState('small');
+    const [quantity, setQuantity] = useState(1);
+    const [varient, setVarient ] = useState('small');
     return (
         <>
             <h1 className='pizza-name'>{pizza.name}</h1>
@@ -36,7 +36,7 @@ function Pizza({ pizza }) {
             </div>
 
             <div className='flex-container'>
-                <div className='second-sub-div w-100'>
+                <div className='pr w-100'>
                     <h1>Price : {pizza.prices[0][varient] * quantity}</h1>
                 </div>
                 <div className='second-sub-div w-100'>
